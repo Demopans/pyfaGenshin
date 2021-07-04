@@ -1,0 +1,1 @@
+root: str = "https://api.genshin.dev/enemies"

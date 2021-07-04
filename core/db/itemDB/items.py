@@ -54,21 +54,14 @@ class Flower(GenericArtifact):
             sys.stderr.write("Invalid Flower stats")
             exit(-1)
 
-    def __str__(self) -> str:
-        return json.dumps(vars(self))
-
 
 class Feather(GenericArtifact):
-
     def __init__(self, name: str = "", level: int = 0, mainstat: dict[str, float] = None,
                  substats: dict[str, float] = None):
         super(Feather, self).__init__(name, level, mainstat, substats)
         if "ATK" not in mainstat.keys():
             sys.stderr.write("Invalid Feather stats")
             exit(-1)
-
-    def __str__(self) -> str:
-        return json.dumps(vars(self))
 
 
 class Watch(GenericArtifact):
@@ -77,9 +70,6 @@ class Watch(GenericArtifact):
         # verify correct mainstats
         super(Watch, self).__init__(name, level, mainstat, substats)
 
-    def __str__(self) -> str:
-        return json.dumps(vars(self))
-
 
 class Cup(GenericArtifact):
     def __init__(self, name: str = "", level: int = 0, mainstat: dict[str, float] = None,
@@ -87,15 +77,9 @@ class Cup(GenericArtifact):
         # verify correct mainstats
         super(Cup, self).__init__(name, level, mainstat, substats)
 
-    def __str__(self) -> str:
-        return json.dumps(vars(self))
-
 
 class Crown(GenericArtifact):
     def __init__(self, name: str = "", level: int = 0, mainstat: dict[str, float] = None,
                  substats: dict[str, float] = None):
         # verify correct mainstats
         super(Crown, self).__init__(name, level, mainstat, substats)
-
-    def __str__(self) -> str:
-        return json.dumps(vars(self))
