@@ -3,6 +3,7 @@ import requests
 root: str = "http://api.genshin.dev/characters"
 
 
+# get char data not covered by firestore
 def updateChars():
     r: requests.Response = requests.get(root)
     try:
@@ -25,3 +26,7 @@ def updateChars():
     except requests.exceptions.RequestException as err:
         print(err)
         return
+
+
+def getStats(name: str, lv: int) -> tuple[int, int, int]:
+    pass

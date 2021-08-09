@@ -1,5 +1,6 @@
 # ulti file containing all functions needed to calc stats
 from core.character import *
+from core.db.characterDB.charDB import *
 
 
 # calcs all initial stats on character screen
@@ -32,11 +33,10 @@ class base:
         pass
 
     @staticmethod
-    def calcAtk(char: Character) -> int:
+    def calcAtk(char: Character) -> float:
         atk: int = int(sumAll(char, "ATK"))
         atkp: float = sumAll(char, "ATK%")
-
-        pass
+        return getStats(char.name, char.level).__getitem__(1)*(atkp/100)+atk
 
     @staticmethod
     def calcDef(char: Character) -> int:

@@ -10,10 +10,10 @@ class Character(object):
     """
     instance = None
 
-    id: int = -1
-
-    talent: list[int] = 5 * [0]  # main, e, q, p1, p2
-    constellation: int = 0
+    name: str
+    level: int
+    talent: tuple[int, int, int, int, int]  # main, e, q, p1, p2
+    constellation: int
 
     weapon: Weapon
 
@@ -23,12 +23,18 @@ class Character(object):
     cup: Cup
     crown: Crown
 
-    def __new__(cls):
-        if cls.instance is None:
-            print('Creating the object')
-            cls.instance = super(Character, cls).__new__(cls)
-            # Put any initialization here.
-        return cls.instance
+    def __init__(self, name: str = "Albedo", level: int = 1, talent: tuple[int, int, int, int, int] = None,
+                 constellation: int = 0):
+        """
+        Default constructor that supports the comparison of multiple fittings.
+        """
+        if talent is None:
+            talent = (1, 1, 1, 0, 0)
+
+        self.name = name
+        self.level = level
+        self.talent = talent
+        self.constellation = constellation
 
     def setChar(self) -> None:
         pass
