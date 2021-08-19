@@ -8,19 +8,13 @@ def autoCheckIn(str: str = None):
     """
     attempt to auto check in upon starting program, 
     """
-    import genshinstats
-    genshinstats.set_cookie_auto()
-    while True:
-        success = genshinstats.sign_in()
-        if success:
-            if str is not None:
-                print('Claimed daily reward.')
-                exit(1)
-        else:
-            if str is not None:
-                print('Could not claim daily rewards')
-                exit(-1)
-    pass
+    import genshinstats as gs
+    gs.set_cookie_auto()
+    reward = gs.claim_daily_reward()
+    if reward is not None:
+        print(f"Claimed daily reward - {reward['cnt']}x {reward['name']}")
+    else:
+        print("Could not claim daily reward")
 
 
 def mainLoop():
@@ -38,8 +32,8 @@ def tmp():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    tmp()
     autoCheckIn()
+    tmp()
 
 """
 import genshinstats

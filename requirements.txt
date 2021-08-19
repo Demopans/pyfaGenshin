@@ -1,3 +1,6 @@
 genshinstats
 numpy
 wxpython
+schedule
+firebase-admin
+firebase
