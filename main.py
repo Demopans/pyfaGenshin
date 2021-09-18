@@ -4,7 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def autoCheckIn(str: str = None):
+def autoCheckIn():
     """
     attempt to auto check in upon starting program, 
     """

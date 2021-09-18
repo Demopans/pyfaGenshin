@@ -1,5 +1,6 @@
 # ulti file containing all functions needed to calc stats
-from core.character import *
+from core.character import character
+from core.character.character import Character
 from core.db.characterDB.charDB import *
 
 
