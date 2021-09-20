@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
@@ -8,6 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="ide">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/character/character.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/character/character.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/db/DBInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/DBInterface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/core/db/db.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/db/itemDB/items.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/db/characterDB/charDB.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="z9nirtau" />
@@ -69,7 +76,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4770115" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -163,6 +170,7 @@
       <workItem from="1631307887853" duration="10000" />
       <workItem from="1631745202106" duration="38000" />
       <workItem from="1632005219461" duration="264000" />
+      <workItem from="1632078370426" duration="3135000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1624333488018</created>

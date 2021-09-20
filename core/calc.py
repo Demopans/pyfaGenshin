@@ -15,8 +15,7 @@ def sumAll(char: Character, stat: str) -> float:
                    char.crown.mainstat.get(stat, 0) + \
                    char.crown.substats.get(stat, 0) + \
                    char.cup.mainstat.get(stat, 0) + \
-                   char.cup.substats.get(stat, 0) + \
-                   char.weapon.substat.get(stat, 0)
+                   char.cup.substats.get(stat, 0)
     return sigma
 
 
@@ -24,41 +23,44 @@ class base:
     """
     Holds general stats
     """
+
     @staticmethod
     def calcHP(char: Character) -> int:
         # formula = (1 + Σ hp%) + Σ hp
         # get all hp stats from equipment
         hp: int = int(sumAll(char, "HP"))
         hpp: float = sumAll(char, "HP%")
-        # calc hp
-        pass
+        return int((getStats(char.name, char.level).__getitem__(1) * char.weapon.substat.get("HP%")) * hpp + hp)
 
     @staticmethod
     def calcAtk(char: Character) -> float:
         atk: int = int(sumAll(char, "ATK"))
         atkp: float = sumAll(char, "ATK%")
-        return getStats(char.name, char.level).__getitem__(1)*(atkp/100)+atk
+        return getStats(char.name, char.level).__getitem__(1) * (atkp / 100) + atk
 
     @staticmethod
     def calcDef(char: Character) -> int:
         de: int = int(sumAll(char, "DEF"))
         dep: float = sumAll(char, "DEF%")
-        pass
+        return int(getStats(char.name, char.level).__getitem__(1) * (dep / 100) + de)
 
     @staticmethod
     def calcEM(char: Character) -> int:
-        EM: int = int(sumAll(char, "EM"))
+        return int(sumAll(char, "EM"))
         pass
 
     @staticmethod
-    def calcCritR(char: Character) -> int:
-        cr: int = int(sumAll(char, "Crit Rate"))
+    def calcCritR(char: Character) -> float:
+        return sumAll(char, "Crit Rate")
         pass
 
     @staticmethod
-    def calcCritD(char: Character) -> int:
-        cd: int = int(sumAll(char, "Crit Dmg"))
-        pass
+    def calcCritD(char: Character) -> float:
+        return sumAll(char, "Crit Dmg")
+
+    @staticmethod
+    def calcER(char: Character) -> float:
+        return sumAll(char, "ER")
 
 
 def calcHPBoost(char: Character):
@@ -66,10 +68,6 @@ def calcHPBoost(char: Character):
 
 
 def calcIncHP(char: Character):
-    pass
-
-
-def calcER(char: Character):
     pass
 
 

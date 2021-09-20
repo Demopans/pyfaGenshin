@@ -4,8 +4,7 @@ from firebase_admin import credentials, firestore
 # Use the application default credentials
 from firebase_admin.auth import Client
 from firebase_admin.credentials import Certificate
-from google.cloud.firestore_v1 import CollectionReference, DocumentReference, DocumentSnapshot
-
+# ToDo: firebase api got updated. Fix it
 
 class DB:
     instance = None

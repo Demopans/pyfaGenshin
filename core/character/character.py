@@ -1,12 +1,9 @@
-# singletoning for memory optimizations
-import json
-
 from core.db.itemDB.items import *
 
 
 class Character(object):
     """
-    representation of a character, only one can exist at any given time in fitting window, storage via json file
+    representation of a character, allows for fitting tabs
     """
     instance = None
 
