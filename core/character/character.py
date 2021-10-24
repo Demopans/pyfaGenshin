@@ -1,7 +1,7 @@
 from core.db.itemDB.items import *
 
 
-class Character(object):
+class Character:
     """
     representation of a character, allows for fitting tabs
     """

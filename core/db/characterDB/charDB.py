@@ -13,6 +13,7 @@ def updateChars():
         tmp = dict()
         for i in r.json():
             tmp[i] = requests.get(root + i).content
+        print(tmp)
 
     except requests.exceptions.HTTPError as errh:
         print(errh)
@@ -28,5 +29,5 @@ def updateChars():
         return
 
 
-def getStats(name: str, lv: int) -> tuple[int, int, int]:
+def getStats(name: str, lv: int) -> tuple[int, int, int]: #
     pass

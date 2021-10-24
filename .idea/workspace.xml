@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="ide">
+      <change afterPath="$PROJECT_DIR$/core/CharHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/character/overrides.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db/itemDB/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/itemDB/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/character/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/character/character.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/character/character.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/db/characterDB/charDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/characterDB/charDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/db/mobDB/mobDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/mobDB/mobDB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +47,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/core/calc.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core/character/calc.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/db/DBInterface.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/db/db.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/db/characterDB/charDB.py" root0="FORCE_HIGHLIGHTING" />
@@ -85,9 +90,9 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="DBInterface" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -169,7 +174,9 @@
       <workItem from="1632005219461" duration="264000" />
       <workItem from="1632078370426" duration="3154000" />
       <workItem from="1632159147754" duration="40000" />
-      <workItem from="1632719122753" duration="321000" />
+      <workItem from="1632719122753" duration="2397000" />
+      <workItem from="1633699054745" duration="729000" />
+      <workItem from="1635080108310" duration="876000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1624333488018</created>
@@ -227,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632098628534</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ide">
+      <created>1632719628668</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1632719628668</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
