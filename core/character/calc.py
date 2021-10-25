@@ -30,7 +30,7 @@ class base:
         # get all hp stats from equipment
         hp: int = int(sumAll(char, "HP"))
         hpp: float = sumAll(char, "HP%")
-        return int((getStats(char.name, char.level).__getitem__(1) * char.weapon.substat.get("HP%")) * hpp + hp)
+        return int((getStats(char.name, char.level).__getitem__(0) * char.weapon.substat.get("HP%")) * hpp + hp)
 
     @staticmethod
     def calcAtk(char: Character) -> float:
@@ -42,7 +42,7 @@ class base:
     def calcDef(char: Character) -> int:
         de: int = int(sumAll(char, "DEF"))
         dep: float = sumAll(char, "DEF%")
-        return int(getStats(char.name, char.level).__getitem__(1) * (dep / 100) + de)
+        return int(getStats(char.name, char.level).__getitem__(2) * (dep / 100) + de)
 
     @staticmethod
     def calcEM(char: Character) -> int:
@@ -62,26 +62,26 @@ class base:
     def calcER(char: Character) -> float:
         return sumAll(char, "ER")
 
+    @staticmethod
+    def calcHPBoost(char: Character):
+        pass
 
-def calcHPBoost(char: Character):
-    pass
+    @staticmethod
+    def calcIncHP(char: Character):
+        pass
 
+    @staticmethod
+    def calcCDRed(char: Character):
+        pass
 
-def calcIncHP(char: Character):
-    pass
+    @staticmethod
+    def calcShieldBoost(char: Character):
+        pass
 
+    @staticmethod
+    def calcDMGBoost(char: Character):
+        pass
 
-def calcCDRed(char: Character):
-    pass
-
-
-def calcShieldBoost(char: Character):
-    pass
-
-
-def calcDMGBoost(char: Character):
-    pass
-
-
-def calcResistBoost(char: Character):
-    pass
+    @staticmethod
+    def calcResistBoost(char: Character):
+        pass

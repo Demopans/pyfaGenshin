@@ -9,14 +9,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="ide">
-      <change afterPath="$PROJECT_DIR$/core/CharHandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/character/overrides.py" afterDir="false" />
+    <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="db later, get calcs done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/character/calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/character/character.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/character/character.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/character/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/character/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/character/overrides.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/character/overrides.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/db/DBInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/DBInterface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/db/characterDB/charDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/characterDB/charDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db/mobDB/mobDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/mobDB/mobDB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,7 @@
       <workItem from="1632159147754" duration="40000" />
       <workItem from="1632719122753" duration="2397000" />
       <workItem from="1633699054745" duration="729000" />
-      <workItem from="1635080108310" duration="876000" />
+      <workItem from="1635080108310" duration="3012000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1624333488018</created>
@@ -241,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632719628668</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="db later, get calcs done">
+      <created>1635081020409</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635081020409</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +268,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="push to db" />
     <MESSAGE value="ide" />
-    <option name="LAST_COMMIT_MESSAGE" value="ide" />
+    <MESSAGE value="db later, get calcs done" />
+    <option name="LAST_COMMIT_MESSAGE" value="db later, get calcs done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
