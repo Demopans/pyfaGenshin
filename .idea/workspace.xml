@@ -9,11 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="db later, get calcs done">
+    <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="process of refactoring db end. Also, find an actual genshin db api. Not manually entering stuff again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/character/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/character/calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/character/overrides.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/character/overrides.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db/DBInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/DBInterface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/db/characterDB/charDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/characterDB/charDB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,10 +84,10 @@
       <recent name="E:\JetBrains\PycharmProjects\pyfaGenshin\core\db\DBKeys" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="Python.charDB">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="DBInterface" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -107,6 +104,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/db/DBInterface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="charDB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyfaGenshin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/db/characterDB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/db/characterDB/charDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,6 +157,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.charDB" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.DBInterface" />
       </list>
@@ -174,7 +193,8 @@
       <workItem from="1632159147754" duration="40000" />
       <workItem from="1632719122753" duration="2397000" />
       <workItem from="1633699054745" duration="729000" />
-      <workItem from="1635080108310" duration="3012000" />
+      <workItem from="1635080108310" duration="4289000" />
+      <workItem from="1635193828426" duration="66529000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1624333488018</created>
@@ -246,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635081020409</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="process of refactoring db end. Also, find an actual genshin db api. Not manually entering stuff again">
+      <created>1635175991606</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635175991606</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +296,8 @@
     <MESSAGE value="push to db" />
     <MESSAGE value="ide" />
     <MESSAGE value="db later, get calcs done" />
-    <option name="LAST_COMMIT_MESSAGE" value="db later, get calcs done" />
+    <MESSAGE value="process of refactoring db end. Also, find an actual genshin db api. Not manually entering stuff again" />
+    <option name="LAST_COMMIT_MESSAGE" value="process of refactoring db end. Also, find an actual genshin db api. Not manually entering stuff again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -288,6 +316,11 @@
           <url>file://$PROJECT_DIR$/venv/Lib/site-packages/genshinstats/daily.py</url>
           <line>38</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/db/characterDB/charDB.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
