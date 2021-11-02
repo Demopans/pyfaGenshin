@@ -1,6 +1,7 @@
-genshinstats
+genshinstats~=1.4.5.1
 numpy
 wxpython
 schedule
 firebase-admin
 firebase
+requests~=2.26.0

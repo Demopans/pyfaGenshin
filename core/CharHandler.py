@@ -1,1 +1,1 @@
-# intermeadery between calc and char
+# intermediary between calc, char, and db

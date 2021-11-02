@@ -9,9 +9,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="process of refactoring db end. Also, find an actual genshin db api. Not manually entering stuff again">
+    <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="can access firebase and that api">
+      <change afterPath="$PROJECT_DIR$/core/db/weaponDB/weaponDB.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/CharHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/CharHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/db/DBInterface.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/db/characterDB/charDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/characterDB/charDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +47,6 @@
     <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/character/calc.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/core/db/DBInterface.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/db/db.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/db/characterDB/charDB.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/db/itemDB/items.py" root0="FORCE_HIGHLIGHTING" />
@@ -194,7 +197,7 @@
       <workItem from="1632719122753" duration="2397000" />
       <workItem from="1633699054745" duration="729000" />
       <workItem from="1635080108310" duration="4289000" />
-      <workItem from="1635193828426" duration="66529000" />
+      <workItem from="1635193828426" duration="69247000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1624333488018</created>
@@ -273,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635175991606</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="can access firebase and that api">
+      <created>1635374430078</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635374430078</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +307,8 @@
     <MESSAGE value="ide" />
     <MESSAGE value="db later, get calcs done" />
     <MESSAGE value="process of refactoring db end. Also, find an actual genshin db api. Not manually entering stuff again" />
-    <option name="LAST_COMMIT_MESSAGE" value="process of refactoring db end. Also, find an actual genshin db api. Not manually entering stuff again" />
+    <MESSAGE value="can access firebase and that api" />
+    <option name="LAST_COMMIT_MESSAGE" value="can access firebase and that api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -319,7 +330,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/core/db/characterDB/charDB.py</url>
-          <line>86</line>
+          <line>75</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

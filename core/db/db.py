@@ -21,16 +21,7 @@ def updateDB() -> None:
             # build character db
             r.json()
 
-        except requests.exceptions.HTTPError as errh:
-            print(errh)
-            return
-        except requests.exceptions.ConnectionError as errc:
-            print(errc)
-            return
-        except requests.exceptions.Timeout as errt:
-            print(errt)
-            return
-        except requests.exceptions.RequestException as err:
+        except IOError as err:
             print(err)
             return
 
