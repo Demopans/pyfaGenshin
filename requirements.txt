@@ -5,3 +5,11 @@ schedule
 firebase-admin
 firebase
 requests~=2.26.0
+google-api-core
+google-api-python-client
+google-cloud
+google-cloud-core
+google-cloud-firestore
+google-cloud-storage
+google-crc32c
+google-resumable-media

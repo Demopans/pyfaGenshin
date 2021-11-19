@@ -2,6 +2,7 @@ import requests
 import firebase_admin as fireAdmin
 import firebase as fireDB
 from firebase_admin import firestore
+
 from core.character.character import Character, Weapon
 
 # Use the application default credentials
