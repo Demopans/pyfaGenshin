@@ -20,12 +20,14 @@ class DB:
     cred: fireAdmin.credentials.Certificate
     db: fireAdmin.auth.Client
     dbNoAuth: fireDB.Database
+
     def __new__(cls):
         if cls.instance is None:
             cls.instance = super(DB, cls).__new__(cls)
             # Put any initialization here.
             cls.cred: Certificate
-            cls.cred = fireAdmin.credentials.Certificate('../DBKeys/pyfagenshindb-firebase-adminsdk-nnt83-30c34bd520.json')
+            cls.cred = fireAdmin.credentials.Certificate(
+                '../DBKeys/pyfagenshindb-firebase-adminsdk-nnt83-30c34bd520.json')
 
             fireAdmin.initialize_app(cls.cred, {'projectId': 'pyfagenshindb', })
             cls.db: Client = firestore.client()
@@ -47,6 +49,7 @@ class DB:
             print(err)
             return
 
+    # these return data tuples
     def accessCharacterData(self, char: Character):
         root: DocumentReference = self.db.document(u'Character/{0}'.format(char.name))
 
