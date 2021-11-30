@@ -17,10 +17,6 @@ def autoCheckIn():
         print("Could not claim daily reward")
 
 
-def mainLoop():
-    pass
-
-
 def tmp():
     import schedule
     import time
@@ -33,30 +29,5 @@ def tmp():
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     autoCheckIn()
-    tmp()
-
-"""
-import genshinstats
-genshinstats.set_cookie_auto()
-while True:
-    success = genshinstats.sign_in()
-    if success:
-        if str is not None:
-            print('Claimed daily reward.')
-            exit(1)
-    else:
-        if str is not None:
-            print('Could not claim daily rewards')
-            exit(-1)
-
-# Press the green button in the gutter to run the script.
-import schedule
-import time
-schedule.every().day.at('01:00').do(autoCheckIn,"a")
-while True:
-    schedule.run_pending()
-    time.sleep(1)
-    
-
-"""
+    #tmp()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

@@ -9,13 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="can access firebase and that api">
-      <change afterPath="$PROJECT_DIR$/core/db/weaponDB/weaponDB.py" afterDir="false" />
+    <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="db interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/CharHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/CharHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db/DBInterface.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db/characterDB/charDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/db/characterDB/charDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +40,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/core/character/calc.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/db/db.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/core/db/characterDB/charDB.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/db/itemDB/items.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core/db/characterDB/charDB.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="z9nirtau" />
@@ -87,7 +82,7 @@
       <recent name="E:\JetBrains\PycharmProjects\pyfaGenshin\core\db\DBKeys" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.charDB">
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -127,6 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/db/characterDB/charDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -160,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.charDB" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.charDB" />
         <item itemvalue="Python.DBInterface" />
       </list>
     </recent_temporary>
@@ -197,7 +193,9 @@
       <workItem from="1632719122753" duration="2397000" />
       <workItem from="1633699054745" duration="729000" />
       <workItem from="1635080108310" duration="4289000" />
-      <workItem from="1635193828426" duration="69247000" />
+      <workItem from="1635193828426" duration="75458000" />
+      <workItem from="1637348181491" duration="2220000" />
+      <workItem from="1638284871382" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1624333488018</created>
@@ -283,7 +281,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635374430078</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="db interface">
+      <created>1635816329456</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1635816329456</updated>
+    </task>
+    <task id="LOCAL-00014" summary="db interface">
+      <created>1637348281998</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637348281998</updated>
+    </task>
+    <task id="LOCAL-00015" summary="db interface">
+      <created>1637359445629</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637359445629</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +327,8 @@
     <MESSAGE value="db later, get calcs done" />
     <MESSAGE value="process of refactoring db end. Also, find an actual genshin db api. Not manually entering stuff again" />
     <MESSAGE value="can access firebase and that api" />
-    <option name="LAST_COMMIT_MESSAGE" value="can access firebase and that api" />
+    <MESSAGE value="db interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="db interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -328,16 +348,14 @@
           <line>38</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/db/characterDB/charDB.py</url>
-          <line>75</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1638285030035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
