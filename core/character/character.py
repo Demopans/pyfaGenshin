@@ -1,4 +1,4 @@
-from core.db.itemDB.items import *
+from core.character.items import *
 
 
 class Character:
@@ -33,7 +33,8 @@ class Character:
         self.talent = talent
         self.constellation = constellation
 
-    def setChar(self) -> None:
+    def setChar(self,key: str, val: str) -> None:
+
         pass
 
     def __str__(self) -> str:

@@ -1,6 +1,6 @@
 root: str = "https://api.genshin.dev/enemies"
 
-temp: dict = {
+resists: dict = {
     "slimes": [.1, .1, .1, .1, .1, .1, .1, .1],
     "hillichurl": [.1, .1, .1, .1, .1, .1, .1, .1],
     "mitachurl": [.1, .1, .1, .1, .1, .1, .1, .3],
@@ -23,3 +23,6 @@ temp: dict = {
     "Geovishap Hatchling": [.1, .1, .1, .1, .1, .5, .1, .3],
     "Abyss Mage": [.1, .1, .1, .1, .1, .1, .1, .1]
 }
+
+class mobDB:
+    pass

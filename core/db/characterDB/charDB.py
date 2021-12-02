@@ -13,7 +13,6 @@ from google.cloud.firestore_v1 import *
 # ToDo: firebase api got updated. Fix it
 
 db1: str = "http://api.genshin.dev/characters"
-db2: str = "http://api.genshin.dev/weapons"
 
 
 class DB:
@@ -51,11 +50,11 @@ class DB:
             return
 
     # these return data tuples
-    def accessCharacterData(self, char: Character):
-        root: DocumentReference = self.db.document(u'Character/{0}'.format(char.name))
+    def accessCharData(self, char: str):
+        root: DocumentReference = self.db.document(u'Character/{0}'.format(char))
 
-    def accessCharData(self, weapon: Weapon):
-        root: CollectionReference = self.db.collection(u'Items/Weapons/{0}'.format(weapon.name))
+    def accessweapData(self, weapon: str):
+        root: CollectionReference = self.db.collection(u'Items/Weapons/{0}'.format(weapon))
 
 
 # get char data not covered by firestore
