@@ -1,5 +1,5 @@
 from core.character.calc import *
-from core.character.character import Character
+from src.core.character.character import Character
 
 
 def burstBoost(char: Character):

@@ -3,12 +3,10 @@ import firebase_admin as fireAdmin
 import firebase as fireDB
 from firebase_admin import firestore
 
-from core.character.character import Character, Weapon
-
 # Use the application default credentials
 from firebase_admin.auth import Client
 from firebase_admin.credentials import Certificate
-from google.cloud.firestore_v1 import *
+from google.cloud import firestore
 
 # ToDo: firebase api got updated. Fix it
 

@@ -1,7 +1,7 @@
 from genshinstats import *
 import requests
 
-from core.db.characterDB.charDB import updateChars
+from src.core.db.characterDB.charDB import updateChars
 
 root: str = "http://api.genshin.dev"
 
