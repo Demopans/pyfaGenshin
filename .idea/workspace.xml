@@ -9,69 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="added some assets, and cleaned up code">
-      <change afterPath="$PROJECT_DIR$/src/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/character/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/db/characterDB/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/db/mobDB/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pyfaGenshin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyfaGenshin.iml" afterDir="false" />
+    <list default="true" id="0a61e057-9ebd-4808-b229-c165030b669e" name="Default Changelist" comment="Refactored project. Moved autocheckin to a different repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/albedo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/albedo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/aloy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/aloy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/amber.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/amber.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/barbara.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/barbara.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/beidou.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/beidou.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/bennett.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/bennett.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/chongyun.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/chongyun.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/diluc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/diluc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/diona.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/diona.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/eula.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/eula.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/fischl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/fischl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/ganyu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/ganyu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/hu_tao.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/hu_tao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/jean.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/jean.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/kaedehara_kazuha.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/kaedehara_kazuha.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/kaeya.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/kaeya.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/kamisato_ayaka.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/kamisato_ayaka.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/keqing.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/keqing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/klee.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/klee.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/kujou_sara.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/kujou_sara.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/lisa.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/lisa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/mona.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/mona.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/ningguang.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/ningguang.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/noelle.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/noelle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/qiqi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/qiqi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/raiden_shogun.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/raiden_shogun.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/razor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/razor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/rosaria.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/rosaria.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/sangonomiya_kokomi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/sangonomiya_kokomi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/sayu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/sayu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/sucrose.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/sucrose.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/tartaglia.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/tartaglia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/thoma.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/thoma.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/traveler_aether.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/traveler_aether.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/traveler_lumine.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/traveler_lumine.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/venti.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/venti.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/xiangling.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/xiangling.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/xiao.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/xiao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/xingqiu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/xingqiu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/xinyan.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/xinyan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/yanfei.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/yanfei.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/yoimiya.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/yoimiya.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/chars/zhongli.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/zhongli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/character/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/character/calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/character/character.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/character/character.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/character/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/character/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/character/overrides.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/character/overrides.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db/characterDB/charDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/db/characterDB/charDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/db/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db/mobDB/mobDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/db/mobDB/mobDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/internalAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/internalAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,6 +227,8 @@
       <workItem from="1638394148048" duration="9865000" />
       <workItem from="1639673389256" duration="4442000" />
       <workItem from="1639752281604" duration="623000" />
+      <workItem from="1639761131032" duration="1382000" />
+      <workItem from="1639857219541" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1624333488018</created>
@@ -408,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638408598875</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Refactored project. Moved autocheckin to a different repo">
+      <created>1639761193125</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639761193125</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,16 +383,12 @@
     <MESSAGE value="can access firebase and that api" />
     <MESSAGE value="db interface" />
     <MESSAGE value="added some assets, and cleaned up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some assets, and cleaned up code" />
+    <MESSAGE value="Refactored project. Moved autocheckin to a different repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored project. Moved autocheckin to a different repo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/venv/Lib/site-packages/genshinstats/daily.py</url>
           <line>74</line>

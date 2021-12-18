@@ -1,6 +1,4 @@
-genshinstats~=1.4.5.1
 wxpython~=4.1.1
-schedule
 firebase-admin
 python_jwt
 requests~=2.26.0
