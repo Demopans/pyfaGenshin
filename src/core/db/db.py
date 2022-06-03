@@ -1,5 +1,5 @@
 class DBInterface:
-    root:str
+    root: str
 
     def connect(self):
         pass
